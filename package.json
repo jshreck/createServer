@@ -1,0 +1,23 @@
+{
+  "name": "createserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jshreck/createServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jshreck/createServer/issues"
+  },
+  "homepage": "https://github.com/jshreck/createServer#readme",
+  "dependencies": {
+    "http": "0.0.0"
+  }
+}
