@@ -8,16 +8,20 @@ var port1 = 7000;
 var port2 = 7500;
 
 
-var server1 = http.createServer();
-var server2 = http.createServer();
+var server1 = http.createServer(function (request, response){
+    response.end("You is smart, you is kind, you is important");
+});
+var server2 = http.createServer(function (request, response){
+    response.end("You is stupid");
+});
 
 //nice server
 server1.listen(port1, function () {
-console.log("You is smart, you is kind, you is important");
+console.log("port1 listening");
 });
 
 //mean server
 server2.listen(port2, function () {
-console.log("you is stupid");
+console.log("port2 listening");
 });
 
